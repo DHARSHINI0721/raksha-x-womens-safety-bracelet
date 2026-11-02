@@ -2,7 +2,7 @@
 
 > Zero-network protection anywhere. A standalone wearable that detects threats and raises alerts without needing a phone or internet.
 
-**Status:** 🟡 Concept & Prototype Design (hardware not yet built)
+**Status:** 🟡 Concept + Hardware Simulation (Wokwi). Physical device not yet built.
 
 **Recognition:** 
    
@@ -61,6 +61,22 @@ An alert triggers when threat probability crosses a set threshold.
 
 ## 🛠️ Tech Stack
 IoT Sensors, Edge AI/ML, LoRa, GPS, Encrypted Storage
+
+## 🔌 Hardware Simulation (Wokwi)
+
+ESP32-based simulation of the bracelet logic. Sensors are simulated with potentiometers and buttons. The simulation fuses multiple signals into a threat score and switches between SAFE, WARN and EMERGENCY states.
+
+**▶️ Live simulation:** [Open in Wokwi](https://wokwi.com/projects/456413413513188353)
+
+![Wokwi Simulation](simulation/wokwi-simulation.png)
+
+**Components simulated:** ESP32, MPU6050 (motion), potentiometers (heart rate, GSR, temperature), 16x2 I2C LCD, SAFE/WARN/EMERGENCY LEDs, buzzer, panic/tamper/safe buttons.
+
+**Code:** [`simulation/sketch.ino`](simulation/sketch.ino)
+
+## 💻 Threat Detection Logic (Java)
+
+A Java simulation of the weighted threat scoring and 3-level alert is in [`src/ThreatDetector.java`](src/ThreatDetector.java).
 
 ## 📁 Documents
 Project presentation and diagrams are in the `docs/` folder.
