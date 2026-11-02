@@ -53,6 +53,11 @@ An alert triggers when threat probability crosses a set threshold.
 - **Communication:** LoRa and GPS modules
 - **Sensors:** camera, microphone, biometric sensor
 - **Power and Memory:** battery management, encrypted storage
+-    ![Architecture](docs/architecture.png)
+
+
+## 🔄 Flow Chart
+   ![Flow Chart](docs/flowchart.png)
 
 ## 🛠️ Tech Stack
 IoT Sensors, Edge AI/ML, LoRa, GPS, Encrypted Storage
