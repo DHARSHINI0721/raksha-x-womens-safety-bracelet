@@ -4,7 +4,12 @@
 
 **Status:** 🟡 Concept & Prototype Design (hardware not yet built)
 
-**Recognition:** MSME 5.0 National Finalist
+**Recognition:** 
+   
+   - 🏆 MSME 5.0 National Finalist
+   - 🥇 1st Prize, Paper Presentation, Mepco Schlenk Engineering College
+   - 🥇 1st Prize, Paper Presentation, Kamaraj College of EngineeringMSME 5.0 National Finalist
+   - 🥇 3rd Prize, Paper Presentation, Lady Doak College
 
 ---
 
